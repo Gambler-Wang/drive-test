@@ -1,0 +1,416 @@
+$btn_bg:#5cbbf4; //按钮背景颜色
+$btn_bg_hover:#7fcfff;
+
+
+
+/*超出字段以...显示*/
+.text-overflow{
+    overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+}
+.inline-block{
+    display:inline-block; vertical-align: top;
+}
+.icon{@extend .inline-block;
+    &.icon-upload{
+        background:url(~@/assets/images/sectab_icons_upload.png) left center no-repeat;
+    }
+    &.icon-download{
+        background:url(~@/assets/images/common_hover_icons_download.png) left center no-repeat;
+    }
+    &.icon-more{
+        background:url(~@/assets/images/common_hover_icons_more.png) left center no-repeat;
+    }
+    &.icon-share{
+        background:url(~@/assets/images/common_hover_icons_share.png) left center no-repeat;
+    }
+    &.icon-noshare{
+        background:url(~@/assets/images/icon1_share.png) left center no-repeat;
+    }
+    &.icon_lock{
+        background:url(~@/assets/images/myshare_icon_lock.png) left center no-repeat;
+    }
+    &.icon-newfolder{
+        background:url(~@/assets/images/sectab_icons_newfolder.png) left center no-repeat;
+    }
+    &.icon-delete{
+        background:url(~@/assets/images/sectab_icons_delete.png) left center no-repeat;
+    }
+    &.icon-close{
+        background:url(~@/assets/images/window_icons_fork.png) left center no-repeat;
+    }
+    &.icon-close-w{
+        background:url(~@/assets/images/common_toast_icons_failure.png) left center no-repeat;
+    }
+    &.icon-hide{
+        background:url(~@/assets/images/window_icons_fold.png) left center no-repeat;
+    }
+    &.icon-showList{
+        background:url(~@/assets/images/window_icons_unfold.png) left center no-repeat;
+    }
+    &.icon-hide-w{
+        background:url(~@/assets/images/common_toast_icons_failure.png) left center no-repeat;
+    }
+    &.icon-error{
+        background:url(~@/assets/images/tips_icons_wrong1.png) left center no-repeat;
+    }
+    &.icon-right{
+        background:url(~@/assets/images/tips_icons_right1.png) left center no-repeat;
+    }
+    &.icon-submit{
+        background:url(~@/assets/images/tips_password_icon_right.png) left center no-repeat;
+    }
+    &.icon-cancel{
+        background:url(~@/assets/images/tips_password_icon_wrong.png) left center no-repeat;
+    }
+    &.icon-del{
+        background:url(~@/assets/images/sectab_icons_delete_action.png) left center no-repeat;
+    }
+    &.icon-recontainy{
+        background:url(~@/assets/images/icon3_reduction.png) left center no-repeat;
+    }
+    /*文件类型图标*/
+    &.icon-avi{
+        background:url(~@/assets/images/avi.png) center center no-repeat;
+    }
+    &.icon-ai{
+        background:url(~@/assets/images/ai.png) center center no-repeat;
+    }
+    &.icon-ae{
+        background:url(~@/assets/images/ae.png) center center no-repeat;
+    }
+    //&.icon-bt{
+    //    background:url(~@/assets/images/bt.png) center center no-repeat;
+    //}
+    &.icon-css{
+        background:url(~@/assets/images/css.png) center center no-repeat;
+    }
+    &.icon-dw{
+        background:url(~@/assets/images/dw.png) center center no-repeat;
+    }
+    &.icon-eml{
+        background:url(~@/assets/images/eml.png) center center no-repeat;
+    }
+    &.icon-excel{
+      background:url(~@/assets/images/excel.png) center center no-repeat;
+      background-size: contain;
+    }
+    &.icon-unknow{
+        background:url(~@/assets/images/unknow.png) center center no-repeat;
+      background-size: contain;
+    }
+    &.icon-bts{
+        background:url(~@/assets/images/bt.png) center center no-repeat;
+      background-size: contain;
+    }
+    &.icon-fl{
+        background:url(~@/assets/images/fl.png) center center no-repeat;
+    }
+    &.icon-folder{
+        background:url(~@/assets/images/folder.png) center center no-repeat;
+      background-size: contain;
+    }
+    &.icon-fw{
+        background:url(~@/assets/images/fw.png) center center no-repeat;
+    }
+    &.icon-gif{
+        background:url(~@/assets/images/gif.png) center center no-repeat;
+    }
+    &.icon-id{
+        background:url(~@/assets/images/id.png) center center no-repeat;
+    }
+    &.icon-image{
+        background:url(~@/assets/images/image.png) center center no-repeat;
+      background-size: contain;
+    }
+    &.icon-ini{
+        background:url(~@/assets/images/ini.png) center center no-repeat;
+    }
+    &.icon-music{
+        background:url(~@/assets/images/music.png) center center no-repeat;
+      background-size: contain;
+    }
+    &.icon-PDF{
+        background:url(~@/assets/images/PDF.png) center center no-repeat;
+    }
+    &.icon-ppt{
+        background:url(~@/assets/images/ppt.png) center center no-repeat;
+    }
+    &.icon-ps{
+        background:url(~@/assets/images/ps.png) center center no-repeat;
+    }
+    &.icon-read{
+        background:url(~@/assets/images/read.png) center center no-repeat;
+    }
+    &.icon-set{
+        background:url(~@/assets/images/set.png) center center no-repeat;
+    }
+    &.icon-TIFF{
+        background:url(~@/assets/images/TIFF.png) center center no-repeat;
+    }
+    &.icon-txt{
+        background:url(~@/assets/images/txt.png) center center no-repeat;
+    }
+    &.icon-video{
+        background:url(~@/assets/images/video.png) center center no-repeat;
+      background-size: contain;
+    }
+    &.icon-vsd{
+        background:url(~@/assets/images/vsd.png) center center no-repeat;
+    }
+    &.icon-wav{
+        background:url(~@/assets/images/wav.png) center center no-repeat;
+    }
+    &.icon-wmv{
+        background:url(~@/assets/images/wmv.png) center center no-repeat;
+    }
+    &.icon-word{
+        background:url(~@/assets/images/word.png) center center no-repeat;
+    }
+    &.icon-zip{
+        background:url(~@/assets/images/zip.png) center center no-repeat;
+    }
+    &.icon-search{
+        background:url(~@/assets/images/sectab_icons_search.png) center center no-repeat;
+    }
+    &.icon-sort{
+        background:url(~@/assets/images/sectab_icons_rank.png) center center no-repeat;
+    }
+    &.icon-list{
+        background:url(~@/assets/images/sectab_icons_form2.png) center center no-repeat;
+    }
+    &.icon-card{
+        background:url(~@/assets/images/sectab_icons_form1.png) center center no-repeat;
+    }
+    &.icon_copy{
+        background:url(~@/assets/images/share_icon_copy.png) center center no-repeat;
+    }
+    &.icon-sortup{
+        background:url(~@/assets/images/common_icons_uparrow.png) center center no-repeat;
+    }
+    &.icon-sortdown{
+        background:url(~@/assets/images/common_icons_downarrow.png) center center no-repeat;
+    }
+    &.icon-speed{
+        background:url(~@/assets/images/hj.png) center center no-repeat;
+    }
+    &.icon-del{background:url(~@/assets/images/icon_delete.png) center center no-repeat;}
+    &.icon-fail{background:url(~@/assets/images/icon_fail.png) center center no-repeat;}
+    &.icon-pause{background:url(~@/assets/images/icon_pause.png) center center no-repeat;}
+    &.icon-play{background:url(~@/assets/images/icon_play.png) center center no-repeat;}
+    &.icon-refresh{background:url(~@/assets/images/icon_refresh.png) center center no-repeat;}
+    &.icon-succeed{background:url(~@/assets/images/icon_succeed.png) center center no-repeat;}
+
+}
+//.icon-files{
+//    width:45px; height:45px; background:url(~@/assets/images/sidenav_icons_file_normal.png) center center no-repeat;
+// }
+.aside-menu{
+  &  .icon-files{width:45px; height:45px; background:url(~@/assets/images/sidenav_icons_file_normal.png) center center no-repeat;}
+  &  .icon-share{width:45px; height:45px; background:url(~@/assets/images/sidenav_icons_share_normal.png) center center no-repeat;}
+  &  .icon-delete{width:45px; height:45px; background:url(~@/assets/images/sectab_icons_delete_normal.png) center center no-repeat;}
+}
+.router-link-active {
+    & .icon-files{background-image:url(~@/assets/images/sidenav_icons_file_action.png);}
+    & .icon-share{background-image:url(~@/assets/images/sidenav_icons_share_action.png);}
+    & .icon-delete{background-image:url(~@/assets/images/sectab_icons_delete_action.png);}
+}
+//.component-list dd .icon{
+//  margin-top: 10px;
+//}
+.btn{
+    display:inline-block; vertical-align:top; border:none; font-size:14px; height:50px; line-height:48px;
+    padding:0 25px;outline:none;cursor:pointer;border-radius:5px;
+}
+.btns{
+    @extend .btn;
+    background-color:$btn_bg; color:#fff;
+    &.large{
+        margin:0 auto; width:100%;font-size:18px;
+    }
+}
+.btns:hover,.btns:focus{
+    background-color:$btn_bg_hover;
+}
+
+
+/*注册element-ui from表单样式修改*/
+.form-box{
+
+
+    width:800px;margin:0 auto;margin-top:85px;
+    & > .form-content{
+        padding:35px; padding-top:15px;font-size:16px;
+        & .large{ height:50px; line-height:50px; margin-top:25px;font-size:18px;}
+        &>p{width:100%; position:relative; left:0; top:0; color:#999; line-height:30px;
+            & a{ color:#9a8ffe;}
+            & > a { position:absolute; top:0; right:0;}
+        }
+        & .getCode{
+            position:relative; left:0; top:0;
+
+            & .btn,
+            & .showCode{ height:45px; line-height:43px; width:183px; margin-left:8px;color:#5a5a5a;background-color: #eff3f8;padding:0; text-align:center;
+            border: solid 1px #d3dbe1;border-radius: 0;}
+        }
+
+        & .protocol{
+            height:16px;line-height:16px; vertical-align: top;
+            & label{display:inline;line-height:16px; vertical-align: top;}
+            & a{ color:#5cbbf4; line-height:16px; vertical-align: top;}
+
+            & .form-item-invalid{
+                background:url(~@/assets/images/tips_icons_wrong1.png) left center no-repeat; padding-left:20px; margin-left:10px;
+                display:inline-block; padding:0; padding-left:20px; line-height:16px; left:310px; color:#fc4343;
+            }
+
+        }
+        & .large{width:406px;}
+        & input:focus{ border-color: #5cbbf4 !important;}
+        & h2.form-item-title{padding-left:82px; font-weight:bold; line-height:46px; font-size:16px; color:#3d3d3d; margin-bottom:6px;}
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    & .el-input__inner{
+        width: 406px;
+        height: 46px;
+        border: solid 1px #d3dbe1;
+        border-radius:0;
+    }
+    & .el-form-item.is-success{ background:url(~@/assets/images/tips_icons_right1.png) right center no-repeat;
+        background-position:500px;
+    }
+    & .el-form-item__label{line-height: 46px;}
+    & .el-form-item__content{ line-height:16px;}
+    & .el-form-item__error{
+        left:420px;top:0;
+        line-height:20px;
+        background:url(~@/assets/images/tips_icons_wrong1.png) left center no-repeat;
+        color:#fc4343;
+        padding:13px 0;
+        padding-left:20px;
+        white-space: nowrap;
+    }
+    & .getCode{
+        & .el-input, & .el-input__inner{ width:210px; }
+    }
+
+}
+
+
+/*树形菜单修改*/
+.component-tree{
+    .el-tree-node__expand-icon{
+        width:16px; height:16px;
+        margin-left:10px;
+        box-sizing:border-box;border:1px solid #e1e1e1;
+        text-align:center;position:relative;}
+    .base{width:16px; height:16px; text-align:center;line-height:14px;position:absolute; left:-1px; top:0;}
+    .el-icon-caret-right::before{
+        content:"\E62B";@extend .base;
+    }
+
+    .el-tree-node__expand-icon.expanded{
+        transform:rotate(0);
+    }
+    .el-tree-node__expand-icon.expanded::before{
+        content:"\E621";@extend .base;
+
+    }
+    .el-tree-node__expand-icon.is-leaf{
+        border:none;
+    }
+    .el-tree-node__content{
+        // padding:0 10px !important;
+        // box-sizing:border-box;
+        height:30px;
+    }
+    .el-tree-node__content:hover{ background-color: #eaf7ff;}
+    .el-tree-node:focus > .el-tree-node__content {
+        background-color: #eaf7ff;
+    }
+
+}
+.popper-sort-box{
+    width:100%; padding:0; border:1px solid #82D0FF;width:100px; max-width:100px !important;overflow:hidden;
+    & .sort-type{
+        width:100%;
+        & li{line-height:34px; cursor: pointer; padding-left:30px;}
+        & li:hover{background-color:#EAF7FF;}
+        & li.active{background:url(~@/assets/images/tips_password_icon_right.png) 10px center no-repeat; background-size:10px;background-color:#EAF7FF;}
+    }
+}
+
+
+
+//列表页面头部
+.page-all{
+    width:100%;position:relative;left:0; top:0; padding-bottom:5px;min-width: 905px;
+    & .all-header{ padding:10px 20px;background-color:#fff;position:relative;width:100%;
+
+        &>.header-right{ position:absolute; right:0;top:0;padding:10px 20px; box-sizing:border-box;font-size:0;
+            & .icon{     color: #5D5E5F;width: 34px;line-height: 34px;height: 34px;text-align: center; }
+            & > .header-right-search{ display:inline-block;vertical-align: top; font-size:14px;height:34px; overflow:hidden; background-color: #e9edf3;border-radius: 17px;position:relative; left:0; top:0;
+                & input{
+                    height:34px; border:none; background-color:transparent; width:315px; padding:5px 17px; line-height:24px; box-sizing:border-box; padding-right:60px;
+                }
+                & .icon{position:absolute; width:20px; height:20px;right:5px; top:7px; cursor: pointer;}
+                & .icon.icon-search{background-position:center center;}
+                & .icon.el-icon-close{
+                    right:25px;line-height:20px;
+                    font-weight:bold;
+                    text-align:center;font-size:15px; color:#656565;
+                }
+                & .icon.el-icon-close:hover{
+                    background-color:#ccc; border-radius:50%;
+                }
+            }
+            & > .header-right-sort,
+            & > .header-right-layout{
+                display:inline-block;vertical-align:top;cursor: pointer;
+            }
+            & > .header-right-sort{
+
+            }
+
+        }
+
+
+
+    }
+
+
+}
+
+//分享弹框
+.component-shareDialog  .el-form-item__error{
+  left: 110px;
+}
+//图片预览
+.pswp__caption__center {
+  text-align: center!important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.component-tree .el-tree-node.is-expanded>.el-tree-node__children{
+    display:inline-block;overflow-x:auto;width:100%;
+}
+@media (max-width:1200px) {
+    .page-all .all-header > .header-right > .header-right-search input{
+        width: 215px;
+    }
+} 
+
